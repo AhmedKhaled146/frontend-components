@@ -1,0 +1,88 @@
+/* Start Navbar */
+.navbar{
+    background-color: #241c0f;
+    border-bottom: 1px solid #e28b00;
+}
+.offcanvas-header .btn-close {
+    filter: invert(1) brightness(1); 
+}
+#bg{
+    background-color: #f28f0d !important;
+}
+.offcanvas-body, .offcanvas-header {
+    background-color: #241c0f;
+}
+.offcanvas-body{
+    color: white;
+}
+.nav-item .nav-link{
+    color: white;
+    font-size: 25px;
+}
+.dropdown-menu .dropdown-item{
+    background-color: #241c0f;
+    font-size: 20px;
+    --bs-dropdown-bg:#241c0f;
+    color: #ffffff;
+    margin: #241c0f;
+}
+.dropdown-menu {
+    --bs-dropdown-bg: #241c0f;
+    background-color: #f28f0d !important;
+    margin: 15px !important;
+    --bs-dropdown-border-color: black;
+
+}
+
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: #f28f0d;
+    font-size: 20px;
+    color: #ffffff;
+}
+.nav-item .nav-link:hover{
+    color: #f28f0d;
+}
+.navbar-brand img{
+    width: 100%;
+    height: 60px;
+}
+
+@media (max-width: 411px) {
+    .navbar-brand img{
+        width: 250px;
+        height: 50px;
+    }
+}
+.home-icons {
+    font-size: 25px !important;
+    margin-right: 10px;
+}
+.home-icon{
+    margin-right: 12px !important;
+}
+.about-icon{
+    margin-right: 15px !important;
+}
+.mobile-icon{
+    margin-right: 22px !important;
+}
+.video-icon{
+    margin-right: 13px !important;
+}
+.digital-icon{
+    margin-right: 15px !important;
+}
+
+.success-icon{
+    font-size: 30px !important;
+    margin-right: 15px !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #f28f0d;
+}
+
+.ui-icon{
+    margin-right: 15px !important;
+}
+/* End Navbar */
