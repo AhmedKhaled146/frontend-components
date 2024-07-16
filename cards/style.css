@@ -66,6 +66,10 @@
         height: 500px;
         max-height: 500px;
     }
+    .col-md-6{
+        padding: 10px;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -79,6 +83,10 @@
         height: 500px;
         max-height: 500px;
     }
+    .col-md-6{
+        padding: 20px;
+    }
+    
 }
 
 @media (max-width: 400px) {
@@ -92,6 +100,10 @@
         height: 510px;
         max-height: 510px;
     }
+    .col-md-6{
+        padding: 20px;
+    }
+    
 }
 
 @media (max-width: 350px) {
@@ -105,12 +117,13 @@
         height: 410px;
         max-height: 410px;
     }
+    .col-md-6{
+        padding: 20px;
+    }
+    
 }
 
 
-.col-md-6{
-    padding: 10px;
-}
 
 /* End Why Choose US */
 
